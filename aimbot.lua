@@ -100,7 +100,7 @@ end
 
 local function onKeyPress(input, gameProcessedEvent)
     if not gameProcessedEvent then
-        if input.KeyCode == Enum.KeyCode.KeyBind then
+        if input.KeyCode == Enum.KeyCode.Z then
             isAimAssistEnabled = not isAimAssistEnabled
             if isAimAssistEnabled then
                 currentTarget = findClosestPlayerToMouse()
